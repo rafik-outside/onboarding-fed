@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 9b6b15eaecbad94484871aefd18dcbac8da7c47f rafik-outside <rafik.maharjan@outside.tech> 1725527079 +0545	commit (initial): first commit
+9b6b15eaecbad94484871aefd18dcbac8da7c47f 0000000000000000000000000000000000000000 rafik-outside <rafik.maharjan@outside.tech> 1725527099 +0545	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 9b6b15eaecbad94484871aefd18dcbac8da7c47f rafik-outside <rafik.maharjan@outside.tech> 1725527099 +0545	Branch: renamed refs/heads/master to refs/heads/main
+9b6b15eaecbad94484871aefd18dcbac8da7c47f 9b6b15eaecbad94484871aefd18dcbac8da7c47f rafik-outside <rafik.maharjan@outside.tech> 1725527559 +0545	checkout: moving from main to dev
+9b6b15eaecbad94484871aefd18dcbac8da7c47f 9b6b15eaecbad94484871aefd18dcbac8da7c47f rafik-outside <rafik.maharjan@outside.tech> 1725533244 +0545	checkout: moving from dev to feature-header
+9b6b15eaecbad94484871aefd18dcbac8da7c47f 9b6b15eaecbad94484871aefd18dcbac8da7c47f rafik-outside <rafik.maharjan@outside.tech> 1725533460 +0545	checkout: moving from feature-header to dev
+9b6b15eaecbad94484871aefd18dcbac8da7c47f 9b6b15eaecbad94484871aefd18dcbac8da7c47f rafik-outside <rafik.maharjan@outside.tech> 1725533483 +0545	checkout: moving from dev to dev
+9b6b15eaecbad94484871aefd18dcbac8da7c47f ec8514f600994c2ede44b1c6eb187827f88a0e48 rafik-outside <rafik.maharjan@outside.tech> 1725538568 +0545	commit: Added Header Section
+ec8514f600994c2ede44b1c6eb187827f88a0e48 e95200d0b7c3c4221c2d8f7ef5a98d62a0ecbaf1 rafik-outside <rafik.maharjan@outside.tech> 1725539798 +0545	commit: Added Header
+e95200d0b7c3c4221c2d8f7ef5a98d62a0ecbaf1 e95200d0b7c3c4221c2d8f7ef5a98d62a0ecbaf1 rafik-outside <rafik.maharjan@outside.tech> 1725539906 +0545	checkout: moving from dev to dev
