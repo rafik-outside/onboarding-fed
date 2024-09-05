@@ -1,0 +1,80 @@
+.btn {
+  padding: 0.8rem 1.6rem;
+  transition: color 0.3s ease;
+  font-family: $btn-font-family;
+  align-items: center;
+  gap: 8px;
+}
+// .btn-outline-space {
+//   color: $space;
+//   background-color: transparent;
+//   border: 0.2rem solid $space;
+
+//   &:focus,
+//   &:hover {
+//     color: $teal;
+//     border: 0.2rem solid $teal;
+//   }
+//   &.btn-disabled {
+//     color: $blush;
+//     border: 0.2rem solid $blush;
+//     pointer-events: none;
+//   }
+// }
+.btn-space {
+  @extend .btn;
+
+  @include button-variant($space, $white, $teal, $white, $blush, $white);
+
+  border-width: 0.2rem;
+  border-style: solid;
+}
+.btn-outline-space {
+  @extend .btn;
+
+  @include button-outline-variant($space, $teal, $blush);
+
+  border-width: 0.2rem;
+  border-style: solid;
+}
+[data-bs-theme='dark'] .btn-outline-space, .btn-outline-dark {
+  @extend .btn;
+
+
+  @include button-outline-variant($white, $sky, $blush);
+  
+  border-width: 0.2rem;
+  border-style: solid;
+}
+// .btn-space {
+//   background-color: $space;
+//   color: white;
+//   border: 0.2rem solid $space;
+
+//   &:focus,
+//   &:hover {
+//     background-color: $teal;
+//     border: 0.2rem solid $teal;
+//   }
+//   &.btn-disabled {
+//     background-color: $blush;
+//     border: 0.2rem solid $blush;
+//     pointer-events: none;
+//   }
+// }
+// [data-bs-theme=dark] .btn-outline-space {
+//   background-color: $space;
+//   color: white;
+//   border: 0.2rem solid white;
+
+//   &:focus,
+//   &:hover {
+//     color: $sky;
+//     border: 0.2rem solid $sky;
+//   }
+//   &.btn-disabled {
+//     color: $blush;
+//     border: 0.2rem solid $blush;
+//     pointer-events: none;
+//   }
+// }
