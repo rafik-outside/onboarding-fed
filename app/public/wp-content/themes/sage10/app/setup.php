@@ -135,3 +135,6 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer',
     ] + $config);
 });
+if (file_exists(__DIR__.'/Walkers/FedWalker.php')){
+    require __DIR__.'/Walkers/FedWalker.php';
+}

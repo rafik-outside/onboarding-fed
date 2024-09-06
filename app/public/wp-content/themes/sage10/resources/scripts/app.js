@@ -1,11 +1,13 @@
 import domReady from '@roots/sage/client/dom-ready';
 // import 'bootstrap/js/src/offcanvas.js'
+import header from './global/header';
 
 /**
  * Application entrypoint
  */
 domReady(async () => {
   // ...
+  header();
   console.log('here');
 });
 
